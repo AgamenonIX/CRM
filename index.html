@@ -206,7 +206,7 @@
 <body>
 
 <header>
-  <h1>Registro de Ocorrência / RAC</h1>
+  <h1>Registro de CRM / RAC</h1>
   <p>Omega Service — S11D / Canaã dos Carajás</p>
 </header>
 
@@ -299,6 +299,7 @@
       <select name="encarregado" required>
         <option value="">Selecione...</option>
         <option value="Alex Sandro">Alex Sandro</option>
+        <option value="Daniel Ferreira">Daniel Ferreira</option>
         <option value="Jeorton de Jesus">Jeorton de Jesus</option>
         <option value="Outros">Outros</option>
       </select>
@@ -681,7 +682,7 @@ setInterval(() => { if (navigator.onLine) sincronizarTudo(); }, 30000);
 
 /* ---------- Montar o texto do relatório ---------- */
 function montarTextoResumo(d) {
-  return `🔺 REGISTRO DE OCORRÊNCIA / RAC
+  return `🔺 REGISTRO DE CRM / RAC
 ⚠️ Risco Crítico: ${d.risco_critico}
 
 📗 Contrato ${d.contrato}
@@ -801,7 +802,7 @@ async function compartilharItem(localId) {
 
   if (navigator.share && (podeCompartilharArquivos || arquivos.length === 0)) {
     try {
-      const payload = { title: 'Registro de Ocorrência / RAC', text: texto };
+      const payload = { title: 'Registro de CRM / RAC', text: texto };
       if (podeCompartilharArquivos) payload.files = arquivos;
       await navigator.share(payload);
       item.status = 'enviado';

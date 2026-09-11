@@ -1,6 +1,6 @@
 {
   "name": "Registro de CRM / RAC",
-  "short_name": "CMR RAC",
+  "short_name": "CRM RAC",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#f1f5f9",
