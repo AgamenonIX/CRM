@@ -1,4 +1,4 @@
-const CACHE_NAME = 'ocorrencia-rac-v1';
+const CACHE_NAME = 'ocorrencia-rac-v2';
 const ARQUIVOS = ['./index.html', './manifest.json'];
 
 self.addEventListener('install', (event) => {
