@@ -1,6 +1,6 @@
 {
-  "name": "Registro de Ocorrência / RAC",
-  "short_name": "Ocorrência RAC",
+  "name": "Registro de CRM / RAC",
+  "short_name": "CMR RAC",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#f1f5f9",
